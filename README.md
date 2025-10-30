@@ -51,3 +51,6 @@ javac *.java
 ### 3.Run the application
 ```bash
 java Main
+
+```
+### 4. Follow the interactive menu to configure and test cache behavior.
