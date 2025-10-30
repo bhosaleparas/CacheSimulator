@@ -28,3 +28,26 @@ Understand how CPU caches, browser caching, and memory management work through
 
 ---
 
+## 🛠️ Installation & Usage
+
+### ✅ Prerequisites
+- Java **8 or higher**
+- Command-line terminal
+
+### ▶️ Running the Simulator
+
+### 1. Clone the Repository
+```bash
+https://github.com/bhosaleparas/CacheSimulator.git
+cd CacheSimulator
+
+```
+### 2. Compile all Java files
+```bash
+javac *.java
+
+
+```
+### 3.Run the application
+```bash
+java Main
