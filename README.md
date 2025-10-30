@@ -54,3 +54,46 @@ java Main
 
 ```
 ### 4. Follow the interactive menu to configure and test cache behavior.
+
+
+### 5.🎮 Sample Session
+```bash
+========== CACHE MEMORY SIMULATOR ==========
+1. Set Cache Size
+2. Choose Policy (LRU / LFU)
+3. Access Data Item
+4. Display Cache
+5. Show Statistics
+6. Reset Cache
+7. Exit
+============================================
+Enter your choice: 1
+Enter cache size: 3
+
+Enter your choice: 2
+Choose cache policy:
+1. LRU (Least Recently Used)
+2. LFU (Least Frequently Used)
+Enter your choice: 1
+LRU policy selected.
+
+Enter your choice: 3
+Access item: A
+Accessed item: A
+
+Enter your choice: 3
+Access item: B
+Accessed item: B
+
+Enter your choice: 4
+Cache: [B, A]
+
+Enter your choice: 5
+=== Cache Statistics ===
+Hits: 0
+Misses: 2
+Hit Ratio: 0.00%
+Cache Size: 2/3
+
+
+
